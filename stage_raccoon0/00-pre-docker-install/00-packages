@@ -1,0 +1,7 @@
+git
+rfkill
+ca-certificates
+curl
+gnupg
+apt-transport-https
+software-properties-common

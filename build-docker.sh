@@ -151,6 +151,7 @@ time ${DOCKER} run \
   --cap-add=ALL \
   -v /dev:/dev \
   -v /lib/modules:/lib/modules \
+  -v $(pwd)/work:/pi-gen/work \
   ${PIGEN_DOCKER_OPTS} \
   --volume "${CONFIG_FILE}":/config:ro \
   -e "GIT_HASH=${GIT_HASH}" \
